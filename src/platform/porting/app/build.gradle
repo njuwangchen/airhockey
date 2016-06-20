@@ -1,6 +1,18 @@
 apply plugin: 'com.android.model.application'
 
+def thirdPartyLib_root = '../../../3rdparty'
 model {
+    repositories {
+        libs(PrebuiltLibraries) {
+            libpng {
+                headers.srcDir "${thirdPartyLib_root}/libpng"
+                binaries.withType(StaticLibraryBinary) {
+                    staticLibraryFile = file("${thirdPartyLib_root}/libpng/obj/local/${targetPlatform.getName()}/libpng.a")
+                }
+            }
+        }
+    }
+
     android {
         compileSdkVersion 24
         buildToolsVersion "24.0.0"
@@ -41,6 +53,11 @@ model {
                         srcDir "src/../../../common"
                         srcDir "src/../../../../core"
                         srcDir "src/main/jni"
+                        srcDir "src/../../../../3rdparty/linmath"
+                    }
+
+                    dependencies {
+                        library "libpng" linkage "static"
                     }
                 }
             }

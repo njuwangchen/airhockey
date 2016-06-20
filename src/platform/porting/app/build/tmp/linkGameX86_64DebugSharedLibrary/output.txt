@@ -1,0 +1,4 @@
+See file:///usr/local/google/home/clarkchenwang/AndroidStudioProjects/porting_airhockey/airhockey/src/platform/porting/app/build/tmp/linkGameX86_64DebugSharedLibrary/output.txt for all output for linkGameX86_64DebugSharedLibrary.
+linking libgame.so successful.
+
+Finished linkGameX86_64DebugSharedLibrary, see full log file:///usr/local/google/home/clarkchenwang/AndroidStudioProjects/porting_airhockey/airhockey/src/platform/porting/app/build/tmp/linkGameX86_64DebugSharedLibrary/output.txt.

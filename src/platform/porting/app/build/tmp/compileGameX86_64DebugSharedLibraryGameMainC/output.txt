@@ -1,0 +1,30 @@
+See file:///usr/local/google/home/clarkchenwang/AndroidStudioProjects/porting_airhockey/airhockey/src/platform/porting/app/build/tmp/compileGameX86_64DebugSharedLibraryGameMainC/output.txt for all output for compileGameX86_64DebugSharedLibraryGameMainC.
+compiling platform_asset_utils.c successful.
+
+compiling platform_log.c successful.
+
+compiling buffer.c successful.
+
+compiling renderer_wrapper.c successful.
+
+compiling shader.c successful.
+
+compiling texture.c successful.
+
+compiling program.c successful.
+
+compiling game_objects.c successful.
+
+compiling asset_utils.c successful.
+
+compiling image.c successful.
+
+compiling game.c successful.
+In file included from /usr/local/google/home/clarkchenwang/AndroidStudioProjects/porting_airhockey/airhockey/src/core/game.c:5:
+/usr/local/google/home/clarkchenwang/AndroidStudioProjects/porting_airhockey/airhockey/src/core/geometry.h:68:2: warning: implicitly declaring library function 'memcpy' with type 'void *(void *, const void *, unsigned long)' [-Wimplicit-function-declaration]
+        memcpy(result, intersection_point, sizeof(intersection_point));
+        ^
+/usr/local/google/home/clarkchenwang/AndroidStudioProjects/porting_airhockey/airhockey/src/core/geometry.h:68:2: note: include the header <string.h> or explicitly provide a declaration for 'memcpy'
+1 warning generated.
+
+Finished compileGameX86_64DebugSharedLibraryGameMainC, see full log file:///usr/local/google/home/clarkchenwang/AndroidStudioProjects/porting_airhockey/airhockey/src/platform/porting/app/build/tmp/compileGameX86_64DebugSharedLibraryGameMainC/output.txt.

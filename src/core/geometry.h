@@ -1,5 +1,7 @@
 #include "linmath.h"
 #include <math.h>
+#include <string.h>
+#include <unistd.h>
 
 typedef struct {
 	vec3 point;

@@ -11,6 +11,8 @@
 #include "program.h"
 #include "shader.h"
 #include "texture.h"
+#include <string.h>
+#include <unistd.h>
 
 static const float puck_height = 0.02f;
 static const float puck_radius = 0.06f;
